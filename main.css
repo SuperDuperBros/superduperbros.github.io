@@ -5,14 +5,7 @@ html, body {
     padding: 0;
 }
 
-div {
-    display: table;
-    width: 100%;
-    overflow: hidden;
-    min-height: 100%;
-}
-
-p, a {
+h1, .main-link {
     font-family: 'Fredoka One', cursive;
     text-align: center;
     font-size: 4.5em;
@@ -24,9 +17,29 @@ p, a {
     border: 0;
 }
 
-#gradient {
-  width: 100%;
-  height: 800px;
+.title, #gradient {
+    display: table;
+    width: 100%;
+    overflow: hidden;
+    min-height: 100%;
   padding: 0px;
   margin: 0px;
+}
+
+.body {
+    color: white;
+    padding: 1em;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 800px;    
+}
+
+h3 {
+    font-family: 'Ovo', serif;
+}
+
+p {
+    font-family: 'Ovo', serif;
 }
